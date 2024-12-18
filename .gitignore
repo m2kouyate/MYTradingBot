@@ -1,0 +1,87 @@
+# --- Общие исключения ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.log
+*.lock
+*.sqlite3
+*.sqlite3-journal
+
+# --- Python окружение и зависимости ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+db.sqlite3
+db.sqlite3-journal
+celerybeat-schedule
+celerybeat.pid
+
+# --- Django специфические файлы ---
+local_settings.py
+*.mo
+*.pot
+logs/
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+.nox/
+
+# --- Jupyter и IPython ---
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# --- Node.js и Vue.js ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+lerna-debug.log*
+
+# --- Фронтенд ---
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+
+# --- Backend ---
+backend/venv/
+backend/.env
+
+# --- IDE и редакторы ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# --- Локальные сборки и кэш ---
+build/
+develop-eggs/
+.eggs/
+downloads/
+sdist/
+wheels/
+site/
+__pypackages__/
+.mypy_cache/
+.pyre/
+.pytype/
+.pdm.toml
+.pdm-python
+.pdm-build/
